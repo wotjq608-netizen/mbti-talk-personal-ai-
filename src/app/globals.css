@@ -1,0 +1,7 @@
+@import "tailwindcss";
+:root { --ink: #24221f; --paper: #fbfaf7; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+button { font: inherit; }
+::selection { background: #e6f89c; }
+
